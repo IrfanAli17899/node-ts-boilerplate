@@ -1,0 +1,5 @@
+#!/bin/node
+module.exports = {
+  config: `${__dirname}/config/sequelize.js`,
+  'migrations-path': `${__dirname}/migrations`
+};
